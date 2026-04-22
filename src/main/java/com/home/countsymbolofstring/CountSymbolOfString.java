@@ -28,7 +28,7 @@ public class CountSymbolOfString
         }
         oScanner.close();
         var fltPart = ((float)c / nLen) * 100f;
-        System.out.printf("The symbol \"%c\" occurs %d times\r\n", chSym, c);
+        System.out.printf("The symbol \"%c\" occurs %d time(s)\r\n", chSym, c);
         System.out.printf
         (
             "The symbol \"%c\" occupies %.2f %% of the string \"%s\"\r\n",
